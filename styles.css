@@ -26,10 +26,12 @@
 
 body{
     margin:0;
-    min-height:100vh;  
-    display:grid;
-    place-items:center;
-    padding:24px}
+    box-sizing: border-box;
+    min-height:100dvh;  
+    display: grid;
+    place-items: safe center;
+    padding:24px
+}
 
 #zokni {
     text-align: center;
@@ -55,7 +57,8 @@ p {
     border-radius:24px;
     padding:28px;
     padding-bottom: 0px;
-    box-shadow:0 15px 45px #1e293b20
+    box-shadow:0 15px 45px #1e293b20;
+    margin-top: 60px;
 }
     
 h1{
