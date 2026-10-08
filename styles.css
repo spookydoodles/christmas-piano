@@ -25,7 +25,6 @@
 }
 
 body{
-    touch-action: manipulation;
     margin:0;
     box-sizing: border-box;
     min-height:100dvh;  
@@ -230,6 +229,7 @@ button.secondary{
 @media (max-width: 600px) {
 
     body {
+        touch-action: manipulation;
         min-height: 100dvh;
         padding: 10px;
         display: block;
@@ -316,8 +316,8 @@ button.secondary{
     }
 
     #text {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #santahat {
